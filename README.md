@@ -1,83 +1,31 @@
 # Masak Apa?
 
-**Cook what?** 🇲🇾
+**Cook what?** It's the question Malaysians ask each other every day.
 
-It’s the question Malaysians ask each other every day.
+Tick what's actually in your kitchen. See which of 50 Malaysian dishes you can cook tonight, which you're one ingredient away from, and which are two.
 
-**Masak apa?** helps you figure out what Malaysian dishes you can make with what’s already in your kitchen.
+## No accounts
 
-Tick off the ingredients you actually have. You’ll see:
+No sign-up. No login. No email. No cookies, no analytics, no tracking, no server.
 
-* 🍳 **Can cook tonight**: you have everything you need.
-* 🛒 **One ingredient away**: just one thing to pick up.
-* 🛍️ **Two ingredients away**: close enough to be worth a trip.
+The whole thing is one HTML file. The dish list ships inside the page, matching happens in your browser, and nothing you tick ever leaves the tab, because there is nowhere for it to go.
 
-Choose from 50 Malaysian dishes and discover what you can make.
+The page counts its own network requests live in the corner. It says zero, because it is zero. There are no external fonts, no CDNs, no scripts and no images loaded from anywhere. The photo is embedded in the file itself.
 
-## No accounts. No tracking. No nonsense.
+## Recipes belong to the people who wrote them
 
-* No sign-up.
-* No login.
-* No email.
-* No cookies.
-* No analytics.
-* No tracking.
-* No server.
+This tool lists dish names and ingredients, which are facts. It does not reproduce anyone's written method. For that it sends you out to cooks who published properly, via a web search and a video search per dish. Following those links is the only time your browser talks to anyone at all.
 
-**The entire app is one HTML file.**
+## Credits
 
-The dish list lives inside the page. Ingredient matching happens entirely in your browser. Nothing you tick ever leaves your tab because there’s nowhere for it to go.
-
-There aren’t even external fonts, CDNs, or scripts loaded from somewhere else.
-
-And because I wanted to make that claim verifiable, the page counts its own network requests live in the corner.
-
-**It says zero. Because it is zero.**
-
-## Recipes belong to the people who wrote them.
-
-Masak Apa? lists **dish names and ingredients**: facts, not recipes.
-
-It doesn't reproduce anyone's written instructions or methods.
-
-Instead, when you want to actually cook something, the app sends you to cooks who have published their recipes properly: a web search and a video search for each dish.
-
-Those links are the **only** time your browser needs to talk to anyone.
+Hero photograph from Pixabay, royalty free.
 
 ## Run it
 
-Open `index.html`.
+Open `index.html`. That's it. Works offline, works from a USB stick, works from a folder on your desktop.
 
-That's it.
+## Why
 
-* No installation.
-* No dependencies.
-* No account.
+Malaysian food is how I explain where I'm from. Most recipe sites assume you already have galangal and belacan in the cupboard, so people bounce off the cuisine before they ever taste it. This starts from the opposite end: here is what you already have, here is what it makes.
 
-It works offline, from a USB stick, or straight from a folder on your desktop.
-
-## Why I built it
-
-Malaysian food is one of the ways I explain where I'm from.
-
-But recipe sites often assume you already know what galangal is, have belacan sitting in your cupboard, and somehow keep pandan leaves on hand.
-
-For someone discovering Malaysian food, that's a pretty high barrier to entry.
-
-**I wanted to start from the opposite end.**
-
-Here's what you already have.
-
-**Here's what you can make.**
-
-Maybe tonight, you cook something Malaysian.
-
-## Built for Hackyard Yard #1
-
-**Theme: No Accounts**
-
-One HTML file.
-Zero network requests.
-50 Malaysian dishes.
-
-**Masak apa?** 🇲🇾
+Built for Hackyard Yard #1. Theme: *No accounts*.
